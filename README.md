@@ -7,7 +7,6 @@ Lua卡片边角按压动效
 ·代码解析
 
 
-
 引入类模块
 import "android.view.animation.Animation"
 import "android.animation.ObjectAnimator"
@@ -40,7 +39,6 @@ end
     动画.setDuration(30)   //等待时长
     动画.setInterpolator(DecelerateInterpolator());
     动画.start();    //开始执行
-
 
 
 ·实例：见下方释放
